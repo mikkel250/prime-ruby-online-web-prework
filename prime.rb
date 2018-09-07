@@ -9,11 +9,12 @@ def prime?(n)
     w = 2
     
     while i * i <= n
-      n % i == 0
-      return false
-      
-      i += w
-      w = 6 - w
+      if (n % i == 0)
+        return false
+      else
+        i += w
+        w = 6 - w
+      end
     end
     
   end
