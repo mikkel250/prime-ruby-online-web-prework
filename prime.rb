@@ -15,4 +15,5 @@ def prime?(n)
   
   while i * i <= n
     n % i == 0
+    false
     
