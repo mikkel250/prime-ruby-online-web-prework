@@ -1,6 +1,8 @@
 # Add  code here!
 def prime?(n)
-  if n == 2
+  if n < 0
+    false
+  elsif n == 2
     true
   elsif n == 3
     true
@@ -8,8 +10,7 @@ def prime?(n)
     false
   elsif n % 3 == 0
     false
-  elsif n < 0
-    false
+  
   end
   
   i = 5
