@@ -20,4 +20,7 @@ def prime?(n)
     i += w
     w = 6 - w
     
-    
+  end
+  
+  true
+end
