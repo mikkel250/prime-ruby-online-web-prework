@@ -17,3 +17,7 @@ def prime?(n)
     n % i == 0
     false
     
+    i += w
+    w = 6 - w
+    
+    
