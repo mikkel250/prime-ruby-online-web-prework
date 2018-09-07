@@ -1,15 +1,15 @@
 # Add  code here!
 def prime?(n)
   if n < 1
-    false
+    return false
   elsif n == 2
-    true
+    return true
   elsif n == 3
-    true
+    return true
   elsif n % 2 == 0
-    false
+    return false
   elsif n % 3 == 0
-    false
+    return false
   
   end
   
@@ -18,7 +18,7 @@ def prime?(n)
   
   while i * i <= n
     n % i == 0
-    false
+    return false
     
     i += w
     w = 6 - w
