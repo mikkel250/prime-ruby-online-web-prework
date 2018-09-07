@@ -14,4 +14,5 @@ def prime?(n)
   w = 2
   
   while i * i <= n
+    n % i == 0
     
