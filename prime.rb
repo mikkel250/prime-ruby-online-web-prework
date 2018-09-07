@@ -8,7 +8,8 @@ def prime?(n)
     false
   elsif n % 3 == 0
     false
-    elsif n 
+  elsif n < 0
+    false
   end
   
   i = 5
