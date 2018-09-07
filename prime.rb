@@ -8,4 +8,9 @@ def prime?(n)
     false
   elsif n % 3 = 0
     false
-    
+  end
+  
+  i = 5
+  w = 2
+  
+  while i 
