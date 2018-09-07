@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(n)
-  if n < 1
+  if n < 0
     return false
   end
   if n == 2
