@@ -3,7 +3,7 @@ def prime?(n)
   if (n < 2) || (n % 2 == 0) || (n % 3 == 0)
     return false
   
-  if (n == 2) || (n == 3)
+  elsif (n == 2) || (n == 3)
     return true
   else
     i = 5
