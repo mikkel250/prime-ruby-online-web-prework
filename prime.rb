@@ -10,7 +10,7 @@ def prime?(n)
     
     while i * i <= n
       n % i == 0
-      false
+      return false
       
       i += w
       w = 6 - w
