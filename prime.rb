@@ -2,12 +2,16 @@
 def prime?(n)
   if n < 1
     return false
+  end
   if n == 2
     return true
+  end
   if n == 3
     return true
+  end
   if n % 2 == 0
     return false
+  end
   if n % 3 == 0
     return false
   
