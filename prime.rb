@@ -13,4 +13,5 @@ def prime?(n)
   i = 5
   w = 2
   
-  while i 
+  while i * i <= n
+    
